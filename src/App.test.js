@@ -1,6 +1,6 @@
 import renderer from "react-test-renderer";
-// import { render, screen } from "@testing-library/react";
 import App from "./App";
+// import { render, screen } from "@testing-library/react";
 
 test("renders a snapshot", () => {
   const tree = renderer.create(<App />).toJSON();

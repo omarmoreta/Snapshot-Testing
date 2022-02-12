@@ -1,3 +1,7 @@
+# Updating Snapshot
+
+If any changes are made to the component after snapshot is created, run `npm test -- -u` or `npm test -- -updateSnapshot` in your terminal to update the snapshot.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
